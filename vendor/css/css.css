@@ -75,7 +75,7 @@ Silders css
 */
 
 .slide{
-    box-shadow: 0px 0px 60px 40px black inset;
+    box-shadow: 0 0 60px 40px black inset;
 }
 .cariusel-height{
     height: 600px;
@@ -217,4 +217,146 @@ logo css
 margin-left: 1rem;
     margin-top: 1rem;
     font-size: 50px;
+}
+
+/*
+
+             Benifits of Fitness section
+
+*/
+.benifits-of-fitness{
+    padding-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.benifits-of-fitness .text h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+
+}
+.services{
+    display: inline-flex;
+}
+
+.services .service-item i,.services .service-item{
+    display: inline-flex;
+}
+.services .service-item h3{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.services .service-item i{
+    margin-right: 30px;
+    margin-top: 9px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50% 50%;
+    height: 2%;
+    padding: 25px;
+    line-height: 9px;
+    font-size: 30px;
+}
+.services .service-item i:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+  display: block;
+
+}
+/*
+Features
+*/
+.main-features {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: auto;
+}
+.workout-schedules{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.workout-schedules .text h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+.workout-schedules .img img {
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+    height: 235px;
+
+}
+.workout-schedules .img .overly{
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    transition: 2s;
+    top: 0;
+    left: 16px;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+    height: 235px;
+
+    visibility: hidden;
+    opacity: 0;
+}
+.workout-schedules .img .overly i{
+    color: white;
+    font-size: 25px;
+    text-align: right;
+    position: absolute;
+    top: 28%;
+    left: 36%;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 30px;
+
+}
+.workout-schedules .offset-1{
+    margin-left: 5%;
+}
+.workout-schedules .img:hover .overly {
+    visibility: visible;
+    opacity: 1;
+    transition: 2s;
+}
+.workout-schedules .schedule-information h3{
+    font-size: 1.2rem;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.workout-schedules .schedule-time{
+    display: inline-flex;
+}
+.workout-schedules .schedule-time p{
+    margin-left: 15px;
+    color: gray;
+}
+.workout-schedules .schedule-more-info p{
+     color: gray;
+}
+.workout-schedules .schedule-more-info i{
+    color: black;
+}
+.workout-schedules .schedule-more-info h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.workout-schedules .schedule-button{
+    padding: 10px 50px 10px 50px;
+    background-color: rgba(0, 0, 0, 0.10);
+    color: black;
+    border:0;
+    margin-left: 15px;
+}
+.workout-schedules .schedule-button i{
+    margin-left: 10px;
 }
