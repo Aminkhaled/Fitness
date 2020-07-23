@@ -1,0 +1,220 @@
+body{
+    overflow-x: hidden;
+}
+/*
+Loader css
+*/
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    transition: 1s;
+    background: white;
+}
+.span{
+    position: absolute;
+    transform: translate(-50%, 50%);
+    width: 120px;
+    height: 120px;
+    top: 35%;
+    border: 5px solid #262626;
+    z-index: 1;
+    animation: animar 2.5s linear infinite;
+}
+.span:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #262626;
+    animation: animarbg 2.5s linear infinite;
+}
+
+@keyframes animar {
+    0% {
+        transform: translate(-50%, 50%) rotate(0deg);
+    }
+    25% {
+        transform: translate(-50%, 50%) rotate(180deg);
+    }
+    50% {
+        transform: translate(-50%, 50%) rotate(180deg);
+    }
+    75% {
+        transform: translate(-50%, 50%) rotate(360deg);
+    }
+    100% {
+        transform: translate(-50%, 50%) rotate(360deg);
+    }
+}
+@keyframes animarbg {
+    0% {
+        height: 0;
+    }
+    25% {
+        height: 0;
+    }
+    50% {
+        height: 100%;
+    }
+    75% {
+        height: 100%;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+/*
+Silders css
+*/
+
+.slide{
+    box-shadow: 0px 0px 60px 40px black inset;
+}
+.cariusel-height{
+    height: 600px;
+   }
+.cariusel-with-nav{
+    position: relative;
+}
+.cariusel-with-nav .nav-nav-light{
+    color: whitesmoke;
+    background-color: #010203;
+}
+.cariusel-with-nav #navbarSupportedContent .navbar-nav  li a{
+    color:whitesmoke;
+}
+.cariusel-with-nav #navbarSupportedContent .navbar-nav  li a:hover{
+    font-size: 20px;
+    transition: 1.5s;
+}
+.cariusel-with-nav #navbarSupportedContent .navbar-nav .dropdown-menu .dropdown-item{
+color: black;
+}
+.cariusel-with-nav #navbarSupportedContent .navbar-nav .dropdown-menu .dropdown-item:hover{
+    background-color: grey;
+}
+.cariusel-with-nav .navbar-expand-lg .navbar-collapse{
+    margin-right: 30%;
+}
+.cariusel-with-nav .navbar-expand-lg .navbar-collapse .nav-item{
+    padding-left: 6%;
+    padding-top: 60px;
+}
+.cariusel-with-nav .carousel-item .text h1{
+    position: absolute;
+    font-size: 100px;
+    top: 20%;
+    left: 30%;
+    color: white;
+
+}
+.cariusel-with-nav .carousel-item .text p{
+    position: absolute;
+    top: 36%;
+font-size: 20px;
+    left: 29%;
+    color: white;
+    width: 50%;
+}
+
+
+/*
+information of email and social media css
+*/
+.cariusel-with-nav .media-info{
+    background-color: white;
+     height: 60px;
+    width: 68%;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 0 100px;
+}
+.cariusel-with-nav .item-info-email{
+
+    display: inline-flex;
+
+}
+ .item-info-email li{
+    z-index: 2;
+     margin-left: 20px;
+position: relative;
+     bottom: 10px;
+}
+
+.cariusel-with-nav .item-info-email li i{
+    color: black;
+    text-align: -moz-center;
+    position: relative;
+    top: 28px;
+    left: 12px;
+    font-size: 20px;
+}
+
+
+.cariusel-with-nav .item-info-email li p{
+    color: black;
+    font-size: 20px;
+   margin-left: 40px;
+}
+
+.cariusel-with-nav .social-media{
+    position: absolute;
+    right: 8%;
+    display: inline-flex;
+    top: 20%;
+}
+.cariusel-with-nav .social-media li{
+    margin-right: 35px;
+    color: black;
+    font-size: 20px;
+    list-style: none;
+}
+.cariusel-with-nav .social-media li a{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.10);
+    border-radius: 50%;
+    display: block;
+    height: 32px;
+    width: 34px;
+    text-align: center;
+    line-height: 29px;
+}
+.cariusel-with-nav .social-media li a:hover{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 20);
+    border-radius: 50%;
+    display: block;
+    height: 32px;
+    width: 34px;
+    text-align: center;
+    line-height: 29px;
+}
+
+/*
+logo css
+*/
+.cariusel-with-nav .navbar-brand{
+    display: inline-flex;
+}
+
+.cariusel-with-nav .navbar-brand img{
+    width: 17%;
+    margin-left: 10%;
+
+}
+.cariusel-with-nav .navbar-brand h1{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 50px;
+}
