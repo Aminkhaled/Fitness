@@ -234,9 +234,7 @@ margin-left: 1rem;
     padding-bottom: 50px;
 
 }
-.services{
-    display: inline-flex;
-}
+
 
 .services .service-item i,.services .service-item{
     display: inline-flex;
@@ -366,6 +364,7 @@ fixed navbar
     width: 100%;
     z-index: 2222;
     background-color: #0102039c;
+    visibility: hidden;
 }
 
 /*
@@ -500,3 +499,239 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
 .social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+/*
+===========================
+Responsive of index.html
+===========================
+*/
+@media (max-width: 575.98px){
+.our-team .submit-options{
+    margin-bottom: 30px;
+}
+    .workout-schedules .schedule-button{
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .services{
+        display: block;
+    }
+    .services .service-item{
+        margin-left: 16.666667%;
+        display: block;
+    }
+    .services .service-item .offset-2{
+        visibility: hidden;
+    }
+    .media-info{
+        visibility: hidden;
+        display: none;
+    }
+    .cariusel-with-nav .navbar-brand{
+        display: none;
+
+    }
+    .navbar{
+        z-index: 555555;
+    }
+    .cariusel-with-nav .nav-nav-light{
+        background-color: white !important;
+        z-index:  5555554;
+    }
+    .cariusel-with-nav #navbarSupportedContent .navbar-nav li a{
+  color: black;
+    }
+    .cariusel-with-nav .navbar-expand-lg .navbar-collapse .nav-item{
+        padding-top: 20px;
+    }
+    .navbar .navbar-toggler{
+        border-color: gray;
+
+    }
+    .cariusel-height {
+        height: 250px;
+    }
+    .cariusel-with-nav .carousel-item .text h1{
+        font-size: 40px;
+    }
+    .cariusel-with-nav .carousel-item .text p{
+        top: 40%;
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+    .our-team .submit-options{
+        margin-bottom: 30px;
+    }
+    .workout-schedules .schedule-button{
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .services{
+        display: block;
+    }
+    .services .service-item{
+        margin-left: 16.666667%;
+        display: block;
+    }
+    .services .service-item .offset-2{
+        visibility: hidden;
+    }
+    .media-info{
+        visibility: hidden;
+        display: none;
+    }
+    .cariusel-with-nav .navbar-brand{
+        display: none;
+
+    }
+    .navbar{
+        z-index: 555555;
+    }
+    .cariusel-with-nav .nav-nav-light{
+        background-color: white !important;
+        z-index:  5555554;
+    }
+    .cariusel-with-nav #navbarSupportedContent .navbar-nav li a{
+        color: black;
+    }
+    .cariusel-with-nav .navbar-expand-lg .navbar-collapse .nav-item{
+        padding-top: 20px;
+    }
+    .navbar .navbar-toggler{
+        border-color: gray;
+
+    }
+    .cariusel-height {
+        height: 250px;
+    }
+    .cariusel-with-nav .carousel-item .text h1{
+        font-size: 50px;
+        top: 8%;
+        left: 25%;
+    }
+    .cariusel-with-nav .carousel-item .text p{
+        top: 25%;
+        left: 25%;
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 991.98px) and (min-width: 768.98px){
+    .our-team .submit-options {
+        margin-bottom: 30px;
+    }
+
+    .workout-schedules .schedule-button {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .services {
+        display: block;
+    }
+
+    .services .service-item {
+        margin-left: 16.666667%;
+        display: block;
+    }
+
+    .services .service-item .offset-2 {
+        visibility: hidden;
+    }
+
+    .media-info {
+        visibility: hidden;
+        display: none;
+    }
+
+    .cariusel-with-nav .navbar-brand {
+        display: none;
+
+    }
+
+    .navbar {
+        z-index: 555555;
+    }
+
+    .cariusel-with-nav .nav-nav-light {
+        background-color: white !important;
+        z-index: 5555554;
+    }
+
+    .cariusel-with-nav #navbarSupportedContent .navbar-nav li a {
+        color: black;
+    }
+
+    .cariusel-with-nav .navbar-expand-lg .navbar-collapse .nav-item {
+        padding-top: 20px;
+    }
+
+    .navbar .navbar-toggler {
+        border-color: gray;
+
+    }
+
+    .cariusel-height {
+        height: 250px;
+    }
+
+    .cariusel-with-nav .carousel-item .text h1 {
+        font-size: 50px;
+        top: 8%;
+        left: 30%;
+    }
+
+    .cariusel-with-nav .carousel-item .text p {
+        top: 20%;
+        left: 30%;
+        font-size: 20px;
+    }
+
+    .workout-schedules .img img {
+        width: 222px;
+        position: relative;
+        overflow: hidden;
+        height: 182px;
+    }
+
+    .workout-schedules .schedule-button {
+        padding: 8px 16px 10px 8px;
+        background-color: rgba(0, 0, 0, 0.10);
+        color: black;
+        border: 0;
+    }
+    .our-team .carousel-item .blog-row {
+        margin-left: 1%;
+    }
+}
+@media (min-width: 1199.98px) {
+    .cariusel-with-nav .nav-nav-light{
+        background-color: black !important;
+        z-index:  5555554;
+    }
+    .cariusel-with-nav .media-info {
+        background-color: white;
+        height: 60px;
+        width: 88%;
+        margin-bottom: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 0 0 100px;
+        z-index: 6666666666;
+    }
+    .cariusel-with-nav .navbar-brand img {
+        width: 38%;
+        margin-left: -7%;
+    }
+    .cariusel-with-nav .navbar-brand h1 {
+        color: whitesmoke;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 1rem;
+        margin-top: 48px;
+        font-size: 30px;
+    }
+}
+
