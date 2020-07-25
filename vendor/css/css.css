@@ -706,7 +706,7 @@ Responsive of index.html
         margin-left: 1%;
     }
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 1199.98px) and (min-width: 991.98px){
     .cariusel-with-nav .nav-nav-light{
         background-color: black !important;
         z-index:  5555554;
